@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/developer.png"
+      type="image/x-icon"
+    />
+    <title>review carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="review">
+      <div class="review__items">
+        <img src=https://www.apogeonline.com/contrib/uploads/Jon-Duckett.png />
+        <h1>Jon Duckett</h1>
+        <p>
+          Jon Duckett is the world-wide best-selling author of HTML & CSS:
+          Design and Build Websites and JavaScript & JQuery: Interactive
+          Front-End Web Development. His books have sold more than 400,000
+          copies in English and been translated into 10 languages.
+        </p>
+      </div>
+      <div class="review__items">
+        <img
+          src="http://cdn.oreillystatic.com/images/people/154/robbins_jennifer.jpg"
+        />
+        <h1>Jennifer Niederst Robbins</h1>
+        <p>
+          Jennifer Niederst Robbins has been a web designer since 1993. She
+          designed the web's first commercial site, O'Reilly's Global Network
+          Navigator. A graduate of the University of Notre Dame, Robbins is the
+          author of Web Design in a Nutshell, Learning Web Design, and HTML and
+          XHTML Pocket Reference.
+        </p>
+      </div>
+      <div class="review__items">
+        <img
+          src="https://secure.gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=400"
+        />
+        <h1>Michael Hartl</h1>
+        <p>
+          Michael Hartl created the legendary Ruby on Rails(tm) Tutorial that
+          helped jumpstart thousands of web development careers.
+        </p>
+      </div>
+      <div class="review__button">
+        <button id="prev" onclick="previousReview()">PREV</button>
+
+        <button id="next" onclick="nextReview()">NEXT</button>
+      </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
